@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
+## [2.5.0] - 2026-02-22
+
+### Added
+- Official Support for **Laravel 11 & 12**.
+- Specific Data Type Mapping for **PostgreSQL** and **MySQL**.
+- Improved **Installation Wizard** via `php artisan visual-migrator:install`.
+
+### Changed
+- Standardized publishing tags for configuration and assets.
+
 ## [2.4.1] - 2026-02-19
 
 ### Added

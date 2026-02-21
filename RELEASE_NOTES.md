@@ -1,6 +1,6 @@
-# Release Notes v2.4.1
+# Release Notes v2.5.0
 
-v2.4.1 focuses on **Persistence Stability** and **User Experience (UX)**. 
+v2.5.0 brings **Laravel 12 Support** and enhanced **Database Compatibility**. 
 
 We have listened to feedback regarding data loss of drafts upon page refresh and the annoyance of node positions being reset during synchronization. This release addresses all those issues with the "Smart Merge Architecture".
 
