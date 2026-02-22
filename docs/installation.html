@@ -245,10 +245,30 @@
                 </div>
 
                 <!-- Step 3 -->
+                <h2 id="run-migrations"
+                    class="text-2xl font-bold tracking-tight mt-12 mb-4 text-gray-800 dark:text-gray-100">3. Run
+                    Migrations</h2>
+                <p class="text-lg leading-7 mb-6 text-gray-600 dark:text-gray-400">After setting up the package, execute
+                    the database migrations to create the required internal tables:</p>
+
+                <div class="code-block bg-code-dark rounded-xl overflow-hidden mb-8 shadow-lg">
+                    <div class="flex items-center justify-between px-4 py-2 bg-[#252525] border-b border-gray-700">
+                        <span class="text-xs text-gray-400 font-mono">Terminal</span>
+                        <button class="copy-btn text-gray-400 hover:text-white transition-colors">
+                            <span class="material-icons-outlined text-sm">content_copy</span>
+                        </button>
+                    </div>
+                    <div class="p-6 font-mono text-sm overflow-x-auto text-gray-300">
+                        <code class="code-content">php artisan migrate</code>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
                 <h2 id="access-dashboard"
-                    class="text-2xl font-bold tracking-tight mt-12 mb-4 text-gray-800 dark:text-gray-100">3. Access the
+                    class="text-2xl font-bold tracking-tight mt-12 mb-4 text-gray-800 dark:text-gray-100">4. Access the
                     Dashboard</h2>
-                <p class="text-lg leading-7 mb-6 text-gray-600 dark:text-gray-400">Once installed, visit the dashboard
+                <p class="text-lg leading-7 mb-6 text-gray-600 dark:text-gray-400">Once migrations are finished, visit
+                    the dashboard
                     in your browser:</p>
 
                 <div class="code-block bg-code-dark rounded-xl overflow-hidden mb-8 shadow-lg">
@@ -416,6 +436,8 @@
                         href="#publish-setup">Publish & Setup</a></li>
                 <li><a class="toc-link text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
                         href="#manual-publish">Manual Publishing</a></li>
+                <li><a class="toc-link text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
+                        href="#run-migrations">Run Migrations</a></li>
                 <li><a class="toc-link text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
                         href="#access-dashboard">Access Dashboard</a></li>
                 <li><a class="toc-link text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"

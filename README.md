@@ -42,6 +42,12 @@ php artisan visual-migrator:install
 
 This command will publish assets, configuration, and offers to run the database migrations for you.
 
+> [!IMPORTANT]
+> If you choose not to run migrations during installation, make sure to run them manually afterwards:
+> ```bash
+> php artisan migrate
+> ```
+
 ### How to Access
 
 After installation, the Visual Migrator dashboard is available at:
