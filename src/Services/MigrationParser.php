@@ -236,7 +236,7 @@ class MigrationParser
                 'type' => 'collection',
                 'position' => ['x' => rand(50, 800), 'y' => rand(50, 500)], // Default random, overwritten by meta if available
                 'data' => [
-                    'label' => $tableName,
+                    'label' => Str::studly($tableName),
                     'tableName' => $tableName,
                     'fields' => $fields
                 ]
@@ -282,7 +282,7 @@ class MigrationParser
             case 'datetime':
             case 'date': return 'DATE';
             case 'json':
-            case 'jsonb': return 'JSON';
+            case 'jsonb': return $isPostgres ? 'JSONB' : 'JSON';
             default: return strtoupper($laravelType);
         }
     }

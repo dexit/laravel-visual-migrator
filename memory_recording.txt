@@ -1,0 +1,3 @@
+- Fixed unit test failures in MigrationParser.php by updating type mapping for PostgreSQL and using studly case for collection labels.
+- Ensured the full test suite can run by creating the missing tests/Feature directory.
+- All 6 unit tests now pass.
