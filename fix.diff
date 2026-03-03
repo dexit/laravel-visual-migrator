@@ -1,0 +1,20 @@
+<<<<<<< SEARCH
+            case 'json':
+            case 'jsonb': return 'JSON';
+=======
+            case 'json':
+            case 'jsonb': return $isPostgres ? 'JSONB' : 'JSON';
+>>>>>>> REPLACE
+<<<<<<< SEARCH
+                'data' => [
+                    'label' => $tableName,
+                    'tableName' => $tableName,
+                    'fields' => $fields
+                ]
+=======
+                'data' => [
+                    'label' => Str::studly($tableName),
+                    'tableName' => $tableName,
+                    'fields' => $fields
+                ]
+>>>>>>> REPLACE
